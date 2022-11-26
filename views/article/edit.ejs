@@ -1,0 +1,20 @@
+<div class="container">
+	<div class="row">
+		<form action="/article/edit/<%= article.id %>" method="post" class="form-center needs-validation">
+			<div class="form-group was-validated">
+			  <input type="text" name="title" class="form-control" placeholder="Title....">
+              <%= article.title %>
+			</div>
+            <div class="form-group was-validated">
+                <textarea class="form-control" name="des" id="" cols="30" rows="10" placeholder="Your Post....">
+                    <%= article.des %>
+                </textarea>
+              </div>
+              <div class="form-group was-validated">
+                <textarea class="form-control" name="info" id="" cols="30" rows="10" placeholder="More Info....">
+                    <%= article.info %>
+                </textarea>
+              </div>
+			<button type="submit" class="btn btn-primary">Update</button>
+		  </form>
+	</div>

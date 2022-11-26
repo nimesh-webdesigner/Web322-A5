@@ -1,0 +1,40 @@
+body {
+	padding-top:5rem;
+}
+.mainheading {
+    padding-bottom: 1em;
+}
+.navi-effect {
+    background: rgba(255,255,255,.97);
+    box-shadow: 0 2px 2px -2px rgb(0 0 0 / 15%);
+}
+.blog-list-effect h2.card-title {
+	font-size:1.3rem;
+	font-weight:700;
+	line-height: 1.25;
+}
+.blog-list-effect h2.card-title a {
+	color:rgba(0,0,0,.8);
+}
+.blog-list-effect h2.card-title a:hover {
+	color:rgba(0,0,0,.6);
+	text-decoration:none;
+}
+.blog-list-effect h4.card-text {
+	color:rgba(0,0,0,.44);
+	font-size:0.95rem;
+	line-height:1.4;
+	font-weight:400;
+}
+.form-center { 
+	margin: 0 auto; 
+	width:450px;
+	}
+.footer {
+	border-top:1px solid rgba(0,0,0,.05)!important;
+	padding-top:15px;
+	padding-bottom:12px;
+	font-size:0.8rem;
+	color:rgba(0,0,0,.44);
+	margin-top:50px;
+}
